@@ -73,4 +73,5 @@ def main(file_path):
     write_to_file('test_file2', proper_words_list_str)
 
 
-main('test_file2')
+if __name__ == '__main__':
+    main('test_file2')
